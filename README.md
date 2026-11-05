@@ -1,16 +1,46 @@
-# React + Vite
+[https://github.com/nihal-gazi/google-sans-studio](https://github.com/nihal-gazi/google-sans-studio)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Google Sans Studio
 
-Currently, two official plugins are available:
+A fast, client-side web tool to type, style, scale, and export text in Google Sans as standalone vector SVG outlines or high-resolution PNG images.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **Live Preview & Scaling**: Adjust font size, letter spacing, line height, alignment, and variable grade axis (`GRAD`).
+- **Font Weights & Styles**: Regular (400), Medium (500), SemiBold (600), Bold (700), with Normal and Italic styles.
+- **Client-Side Vectorization**: Converts TrueType Bézier curves directly into clean SVG `<path>` outlines inside the browser. No server or external APIs needed.
+- **Universal Compatibility**: Exported outline SVGs open cleanly in Figma, Adobe Illustrator, Canva, and web apps without requiring the font to be installed locally.
+- **Colors & Styles**: Solid fill (Google palette or custom hex), Google 4-color gradient, stroke outlines, and transparent or solid backgrounds.
+- **Export Options**:
+  - **Vector Outlines (Path)**: Pure vector outlines ready for design workflows.
+  - **Editable Text (SVG)**: `<text>` SVG with embedded Base64 font.
+  - **PNG (2x)**: High-resolution raster image.
+  - **Copy SVG / CSS**: 1-click clipboard actions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the Oxlint configuration
+```bash
+# Install dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# Start development server
+npm run dev
+
+# Build production bundle
+npm run build
+```
+
+---
+
+## Disclaimer & Legal Notice
+
+This project is only built for experimental purposes, for exploring the dynamics and style of google font. Downloadable SVGs and PNG allows you to investigate the original equations behind the font. I made this personal project, because I found all other sites that allows the usage of Product Sans to be personally inconvinient.
+
+Google's font is proprietary and subject to copyright.  
+Usage of this font is subject to Google's TOS.  
+The creator is not responsible for how it is used.  
+And I have put this warning, as what I personally conclude to be my best effort.
+
+---
+
+Made with ❤️ by [Nihal Gazi](https://nihalgazi.com)
